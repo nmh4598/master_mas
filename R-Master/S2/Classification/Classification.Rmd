@@ -219,14 +219,6 @@ plot_ly(df_pca, x = ~Dim.1, y = ~Dim.2, z = ~Dim.3, color = ~cluster, colors = c
     "red", "green", "blue")) %>% add_markers() %>% layout(scene = list(xaxis = list(title = "Dim.1"), 
     yaxis = list(title = "Dim.2"), zaxis = list(title = "Dim.3")))
 ```
-```{r}
-df_pca <- data.frame(poke_pca$ind$coord[, 1:5]) %>% bind_cols(cluster = as.factor(cl$cluster)) %>% 
-    select(cluster, 1:5)
-library(plotly)
-plot_ly(df_pca, x = ~Dim.1, y = ~Dim.2, z = ~Dim.3, color = ~cluster, colors = c("black", 
-    "red", "green", "blue")) %>% add_markers() %>% layout(scene = list(xaxis = list(title = "Dim.1"), 
-    yaxis = list(title = "Dim.2"), zaxis = list(title = "Dim.3")))
-```
 
 
 
