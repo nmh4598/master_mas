@@ -79,7 +79,7 @@ Nous nous rendons compte que, même si nous nous rappelons toujours le réchauff
 Plus en détail, alors que quelques pays émettent encore de plus en plus de gaz, il y a certains pays qui ont fait un excellent travail en matière de protection de l'environnement comme la France, l'Allemagne, l'Italie, le Japon, etc dont les mesures pour limiter les émissions ont eu des résultats évidents.
 
 ## Projet
-Ce projet à été réalisé dans le cadre du cours de Python pour la data science en 1<sup>re</sup> année de Master dans la filière Mathématiques appliquées, Statistique.
+Ce projet à été réalisé dans le cadre du cours de Data Visualisation en 1<sup>re</sup> année de Master dans la filière Mathématiques appliquées, Statistique.
 
 <hr>
 <center>
